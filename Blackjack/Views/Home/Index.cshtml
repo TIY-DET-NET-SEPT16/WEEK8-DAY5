@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Blackjack</h1>
+    <p class="lead">Do you want to play a new game?</p>
+    <p><a class="btn btn-primary btn-lg" @Html.ActionLink("Play Blackjack", "Index", "Card")</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Learn the rules</h2>
+        <p>
+            Equally well known as Twenty-One. The rules are simple, the play is thrilling, and there is opportunity
+            for high strategy. In fact, for the expert player who mathematically plays a perfect game and is able to
+            count cards, the odds are sometimes in that player's favor to win.
+        </p>
+        <p><a class="btn btn-default" href="http://www.bicyclecards.com/how-to-play/blackjack/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Play more games</h2>
+        <p>AARP has free online games you can play right now.</p>
+        <p><a class="btn btn-default" href="http://games.aarp.org/categories/card.aspx?intcmp=AE-GAMES-GLBNAV-CRD">Get games &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
